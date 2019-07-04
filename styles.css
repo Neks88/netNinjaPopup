@@ -1,0 +1,34 @@
+button {
+    display: block;
+    background: crimson;
+    border: none;
+    border-radius: 5px;
+    padding: 6px 10px;
+    margin: 20px auto;
+    color: white;
+}
+
+
+.wrapper {
+    position: fixed;
+    background: rgba(0,0,0,0.5);
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper-content {
+    z-index: 10;
+    background: white;
+    width: 100%;
+    max-width: 300px;
+    margin: 20% auto;
+    text-align: center;
+    padding: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.eks {
+    cursor: pointer;
+}
